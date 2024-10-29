@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+<body>
+    <h1>Empréstimo</h1>
+    <form action="emprestimo.php" method="post">
+    <fieldset class="campo">
+        <label for="id_cliente">ID do Cliente</label>
+        <input type="number" name="id_cliente" required>
+        <br>
+        <label for="tel">Telefone</label>
+        <input type="tel" name="telefone" required>
+        <br>
+        <label for="id_livro">ID do Livro</label>
+        <input type="number" name="id_livro" required>
+        <br>
+        <label for="devolucao">Devolução</label>
+        <input type="date" name="devolucao" required>
+        <br>
+        <label for="id_usuario">ID do Usuário</label>
+        <input type="number" name="id_usuario" required>
+    </fieldset>
+    <br>
+    <button class="botao" type="submit">Confirmar Empréstimo</button>
+    <br>
+    <a href="home.html">Voltar</a>
+    </form>
+    <footer>
+        <p>Biblioteca</p>
+        <p>Todos os direitos reservados©</p>
+    </footer>
+</body>
+</html>
